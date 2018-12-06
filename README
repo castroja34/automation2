@@ -1,0 +1,18 @@
+Goals:
+Using any test automation framework, automate the following 
+(Do not use any app that will just record and play actions):
+    Test 1:
+        - Start at "https://www.google.com/"
+        - Find a way to go to "https://www.youtube.com/" by normal user
+          interactions such as doing searches through the search engine
+          and clicking links
+        - The test should do a final check to check if it did land on
+          "https://www.youtube.com/" and fail if it did not
+
+    Test 2:
+        - Start at "https://www.youtube.com/"
+        - Find a way to click on the first video (top-left)
+        - After clicking on the first video, click on the youtube logo to
+          go back to youtube's home page
+        - The test should do a final check to check if it did land on
+          "https://www.youtube.com/" and fail if it did not
